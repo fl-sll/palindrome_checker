@@ -3,8 +3,7 @@
 
 using namespace std;
 
-template <typename T>
-int palindrome(T s, int start, int end)
+int palindrome(string s, int start, int end)
 {
     if (end-start == 1 || start == end)
     {
@@ -29,7 +28,7 @@ int main(){
     cout << "Enter a word: ";
     cin >> s;
     int n = s.length();
-    if (palindrome<string>(s,0,n-1))
+    if (palindrome(s,0,n-1))
     {
         cout << "Word: " << s << " is a palindrome" << endl;
     }
