@@ -22,7 +22,6 @@ int palindrome(string s, int start, int end)
     }
 }
 
-
 int main(){
     string s;
     cout << "Enter a word: ";
